@@ -39,13 +39,13 @@ The project follows the following folder structure:
 
 2. **Clone the Repository:**
    ```bash
-   git clone <repository-url>
-   cd FlashcardApp
+   git clone git@github.com:Leramir1/flashcard-app.git
+   cd flashcard-app
    ```
 
 3. **Compile the Code:**
    ```bash
-   swiftc CLI/FlashcardApp.swift
+   swiftc Sources/CLI/FlashcardApp.swift
    ```
 
 4. **Run the Executable:**

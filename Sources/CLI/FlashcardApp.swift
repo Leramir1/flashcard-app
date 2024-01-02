@@ -74,7 +74,7 @@ func saveFlashcardSetAsJSON(_ flashcardSet: FlashcardSet) {
         let currentDirectory = FileManager.default.currentDirectoryPath
 
         // Create a "Resources" directory if it doesn't exist
-        let resourcesDirectory = currentDirectory + "/Resources"
+        let resourcesDirectory = currentDirectory + "Sources/Resources"
         try FileManager.default.createDirectory(atPath: resourcesDirectory, withIntermediateDirectories: true, attributes: nil)
 
         // Save the JSON file within the "Resources" directory
